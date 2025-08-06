@@ -127,3 +127,43 @@
     @apply border-border outline-ring/50 tracking-tight;
   }
 }
+
+.custom-player {
+  max-width: 400px;
+  margin: 1rem auto;
+  text-align: center;
+  background: #1e1e1e;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-family: sans-serif;
+}
+
+.custom-player .controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.custom-player button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+.custom-player button:hover {
+  background: #555;
+}
+
+.custom-player input[type="range"] {
+  flex-grow: 1;
+  cursor: pointer;
+}
